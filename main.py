@@ -20,7 +20,7 @@ def num_generator():
     while True:
         num = random.randint(1000, 9999)
         if no_duplicates(num):
-            print(num)
+            # print(num)
             return num
 
 
